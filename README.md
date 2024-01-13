@@ -1,7 +1,7 @@
 ## Azure 
 
 ### About this:
-
+```
 │  README.md
 │
 ├─AML
@@ -31,3 +31,4 @@
         group_manage001.png
         group_manage002.png
         group_manage003.png
+```
