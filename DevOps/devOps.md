@@ -112,7 +112,7 @@ VM resources connect to environments. After you define an environment, you can a
 ### Quick Start
 This may be the simpest example of using pipeline to train a model. 
 
-You can download the repo from [here](https://github.com/dboywjy/AzureDevOps_test.git)
+You can download the repo in "./repo_test/*"
 
 There are something you need to noticee:
 1. Keep your path correct
