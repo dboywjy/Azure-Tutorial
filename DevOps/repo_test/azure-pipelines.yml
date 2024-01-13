@@ -1,0 +1,17 @@
+jobs:
+- job: BuildJob
+  displayName: 'Build Job'
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.x'
+      addToPath: true
+  - script: |
+      pwd
+      ls -d */
+      python -m pip install --upgrade pip
+      pip install pandas scikit-learn
+      python training/train.py
+    displayName: 'Run Python Script'
