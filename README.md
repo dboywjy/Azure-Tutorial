@@ -15,6 +15,7 @@
 │  │  devOps.md
 │  │  key-concepts-overview.svg
 │  │  pipeline_bases01.png
+│  │  Role_process.png
 │  │
 │  └─repo_test
 │      │  azure-pipelines.yml
@@ -26,9 +27,13 @@
 │      └─training
 │              train.py
 │
-└─GroupManage
-        GroupManage.md
-        group_manage001.png
-        group_manage002.png
-        group_manage003.png
+├─GroupManage
+│      GroupManage.md
+│      group_manage001.png
+│      group_manage002.png
+│      group_manage003.png
+│
+└─MLOps
+        cross-workspace-mlops-with-registries.png
+        MLOps.md
 ```
