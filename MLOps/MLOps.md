@@ -34,6 +34,8 @@ Azure Machine Learning entities can be grouped into two broad categories：
 
 Azure Machine Learning registries enable you to create and use those assets in different workspaces.
 
+#### 
+
 
 
 
