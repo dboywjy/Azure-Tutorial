@@ -312,3 +312,19 @@ steps:
       az ml job create --file aml_service/pipeline-job.yml --resource-group dev-ml-rg --workspace-name dev-ml-ws
   displayName: 'Run Azure Machine Learning Pipeline'
 ```
+
+#### GitHub Actions
+When you want to automate workflows with GitHub, you use GitHub Actions.
+
+
+###  Continuous deployment for machine learning
+
+#### Set up environments for development and production
+
+How many environments you work with, depends on your organization. Commonly, there are at least two environments: development or dev and production or prod. Plus, you can add environments in between like a staging or pre-production (pre-prod) environment.
+With continuous delivery, a typical approach is to:
+
+1. Experiment with model training in the development environment.
+2. Move the best model to the staging or pre-prod environment to deploy and test the model.
+3. Finally release the model to the production environment to deploy the model so that end-users can consume it.
+
